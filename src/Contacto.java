@@ -38,6 +38,8 @@ public class Contacto {
         this.email = email;
     }
 
+    // Aplica overdrive para que sobreescriba el metodo del Objeto.
+    @Override
     public String toString() {
         return nombre + " | Teléfono: " + telefono + " | Email: " + email;
     }
